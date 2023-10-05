@@ -1,0 +1,109 @@
+.container {
+  // border: 1px solid;
+  width: 100%;
+}
+
+// Header.js
+
+form {
+  width: 200px;
+  // border: 1px solid;
+  #btnDark {
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-family: "Century Gothic";
+  }
+}
+
+#zero {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  // padding: 5px;
+  width: 25px;
+  height: 25px;
+  font-family: "Century Gothic";
+  line-height: 25px;
+}
+
+.header {
+  // border: 1px solid red;
+  width: 100%;
+  height: 35vh;
+  background-color: #212529;
+  .box {
+    color: white;
+    text-align: center;
+    margin: 80px;
+    h1 {
+      font-size: 60px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    p {
+      font-size: 20px;
+      color: #909294;
+    }
+  }
+}
+
+// Middle
+
+.middle {
+  // border: 1px solid;
+  // width: 100%;
+  .container {
+    width: 100%;
+    margin-top: 100px;
+    .row {
+      gap: 50px;
+      // margin: 0 40px;
+      .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #d2d2d2;
+        border-radius: 5px;
+        padding: 0;
+        margin-top: 50px;
+
+        .box-450 {
+          height: 150px;
+          background-color: #dee1e6;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 40px;
+          color: #6c6f74;
+        }
+
+        h4 {
+          margin-top: 30px;
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+
+        a {
+          text-decoration: none;
+          border: 1px solid;
+          color: black;
+          border-radius: 5px;
+          padding: 6px 12px;
+          margin-bottom: 20px;
+          margin-top: 30px;
+          transition: all 0.5s;
+          &:hover {
+            color: white;
+            background-color: black;
+          }
+        }
+      }
+    }
+  }
+}
